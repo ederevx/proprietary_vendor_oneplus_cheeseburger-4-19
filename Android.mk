@@ -8,7 +8,7 @@ ifeq ($(TARGET_DEVICE),cheeseburger)
 
 $(call add-radio-file-sha1-checked,radio/LOGO.img,2b932fbe792a423a6d0dff2fbe3e1083753b49b6)
 $(call add-radio-file-sha1-checked,radio/abl.img,b0f73a28ca9a176ece7c12271e66df758b9fb972)
-$(call add-radio-file-sha1-checked,radio/bluetooth.img,1fe9183e6a36cdf3324037501f8c552f2f315c68)
+$(call add-radio-file-sha1-checked,radio/bluetooth.img,dd0ebe2441d7208ee907e7cf65e15ebe08c1df8c)
 $(call add-radio-file-sha1-checked,radio/cmnlib.img,96f9d1b07e35d460de170207d3b3da632fa176db)
 $(call add-radio-file-sha1-checked,radio/cmnlib64.img,2df0a7eab656ba4c4026cf5f9836aa43cb0ec13c)
 $(call add-radio-file-sha1-checked,radio/devcfg.img,8c7b9fed3662d92b0ac3c3ae313ca4d1c390f84f)
